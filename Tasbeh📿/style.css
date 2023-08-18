@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+  background-color: #0c0139;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section .tasbeh {
+  width: 280px;
+  height: 350px;
+  background-color: #000;
+  border-radius: 20%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset -1px 1px 25px #9b9b9b, inset -1px 1px 35px #191515;
+}
+
+.tasbeh input {
+  width: 170px;
+  height: 50px;
+  position: absolute;
+  font-size: 45px;
+  text-align: right;
+  top: 18%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  border: 3px solid #fff;
+}
+
+.tasbeh .button1 {
+  width: 40px;
+  height: 40px;
+  background-color: #000c92f5;
+  border-radius: 50%;
+  position: absolute;
+  top: 35%;
+  left: 18%;
+  cursor: pointer;
+  box-shadow: inset 0 6px 15px #266fedf5;
+}
+
+.tasbeh .button2 {
+  width: 40px;
+  height: 40px;
+  background-color: #000c92f5;
+  border-radius: 50%;
+  position: absolute;
+  top: 35%;
+  right: 18%;
+  cursor: pointer;
+  box-shadow: inset 0 6px 15px #266fedf5;
+}
+
+.tasbeh .button3 {
+  width: 100px;
+  height: 100px;
+  background-color: #000c92f5;
+  border-radius: 50%;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  box-shadow: inset 0 15px 30px #005efff5;
+}
+
+.text {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.text span:nth-child(1) {
+  color: #fff;
+  font-size: 10px;
+  letter-spacing: 1px;
+  position: absolute;
+  top: 31.5%;
+  left: 25%;
+  text-transform: uppercase;
+  transform: translate(-50%, -50%);
+}
+
+.tasbeh .text span:nth-child(2) {
+  color: #fff;
+  font-size: 10px;
+  letter-spacing: 1px;
+  position: absolute;
+  top: 31.5%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+}
+
+.tasbeh .text span:nth-child(3) {
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 1px;
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+}
+
+.tasbeh .text span:nth-child(4) {
+  color: #fff;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
